@@ -1,4 +1,10 @@
 lambda/api/package
 lambda/maze_solve/package
 next-gate-tech
-terraform/.terraform
+terraform/.
+*.pyc
+__pycache__/
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+.terraform.lock.hcl

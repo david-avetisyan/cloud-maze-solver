@@ -25,7 +25,8 @@ The Terraform configuration files are used to define and deploy the infrastructu
 The API Gateway is set up to provide a REST API interface for CRUD operations on the DynamoDB table. It includes:
 - Methods for `POST`, `DELETE`, and `GET` requests.
 - Integration with the Lambda function to handle these requests.
-- API keys for securing the API endpoints and rate limiting usage plan.
+- API keys for securing the API endpoints.
+- Rate limiting usage plan.
 
 
 ## Getting Started
@@ -38,10 +39,14 @@ The API Gateway is set up to provide a REST API interface for CRUD operations on
 ### Deployment Steps
 
 1. **Clone the repository:**
-   git clone https://github.com/david-avetisyan/ngt-demo-david-avetisyan.git
-   cd your-repo
+    ```sh
+    git clone https://github.com/david-avetisyan/ngt-demo-david-avetisyan.git
+    cd your-repo
+    ```
 
 2. **Initialise terraform and apply:**
+    ```sh
     cd terraform
     terraform init
     terraform apply
+    ```

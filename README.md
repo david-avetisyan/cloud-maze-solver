@@ -1,4 +1,4 @@
-# NGT Demo Project ngt-demo-david-avetisyan
+# NGT Demo Project
 
 ## Project Overview
 

@@ -1,4 +1,4 @@
-# NGT Demo Project
+# Maze Solver Project
 
 ## Project Overview
 
